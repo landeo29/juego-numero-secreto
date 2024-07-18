@@ -1,7 +1,7 @@
 let numeroSecreto;
 let contador;
 let numGenerado = [];
-let numMaximo = 10;
+let numMaximo = 100;
 
 function asignar(elem, txt) {
     let elemetoHTML = document.querySelector(elem);
@@ -46,7 +46,6 @@ function estructuraInicial() {
     asignar('h1', 'Juego del Número Secreto');
     asignar('p', `Ingresa un número del 1 al ${numMaximo}`);
     numeroSecreto = generarNumero();
-    console.log(numeroSecreto);
     contador = 1;
 }
 
