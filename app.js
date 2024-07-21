@@ -1,7 +1,7 @@
 let numeroSecreto;
 let contador;
 let numGenerado = [];
-let numMaximo = 100;
+let numMaximo = 10;
 
 function asignar(elem, txt) {
     let elemetoHTML = document.querySelector(elem);
